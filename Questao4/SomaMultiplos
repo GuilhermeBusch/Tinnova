@@ -1,0 +1,23 @@
+package somamultiplos;
+
+public class SomaMultiplos {
+
+    public static void main(String[] args) {
+        
+        int numero = 9;
+        int soma = 0;
+        
+        for(int x = 0; numero > x; x++) {
+            
+            if(x%3 == 0 || x%5 == 0) {
+                soma += x;
+                
+            }
+            
+        }
+        
+        System.out.println(soma);
+        
+    }
+    
+}
